@@ -27,24 +27,25 @@ textarea:focus {
   color: white;
 }
 
-.increment, .decrement {
+.buttons button {
   font-size: 32px;
   font-family: monospace;
   color: white;
   background-color: rgb(122, 87, 185);
   border: none;
   padding: 0px 35px;
+  margin-left: 10px;
 }
 
-.increment:hover, .decrement:hover {
+.buttons button:first-child {
+  margin-left: 0;
+}
+
+.buttons button:hover {
   cursor: pointer;
   background-color: rgb(99, 72, 149);
 }
 
-.increment:active, .decrement:active {
+.buttons button:active {
   background-color: rgb(77, 50, 125);
-}
-
-.increment {
-  margin-left: 10px;
 }
