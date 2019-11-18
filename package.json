@@ -33,6 +33,7 @@
   },
   "homepage": "https://github.com/Nikitozz13/redux-from-scratch#readme",
   "dependencies": {
-    "react-hot-loader": "^4.12.17"
+    "react-hot-loader": "^4.12.17",
+    "redux": "^4.0.4"
   }
 }
